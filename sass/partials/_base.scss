@@ -10,8 +10,8 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
-	background: getColour(light-grey);
-	color: getColour(dark-grey);
+	background: $primary-background-color;
+	color: $primary-font-color;
 	margin: 0;
 	font-family: $font-primary;
 }

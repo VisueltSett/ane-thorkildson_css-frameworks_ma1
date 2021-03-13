@@ -1,5 +1,5 @@
 nav {
-	background: white;
+	background: $navbar-light-colorte;
 
 	.container {
 		@extend .container-flex;
@@ -23,12 +23,12 @@ nav {
 	}
 
 	a {
-		color: getColour(primary);
+		color: $lighter-header-color;
 		text-decoration: none;
 	}
 
 	a.active {
+		color: $nav-tabs-link-active-color;
 		padding: 0.4em 0.4em 0.1em;
-		border-bottom: 4px solid getColour(secondary);
 	}
 }
