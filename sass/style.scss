@@ -1,9 +1,4 @@
 @import "partials/custom";
-@import "partials/base";
-@import "partials/typography";
-@import "partials/nav";
-@import "partials/circles";
-@import "partials/footer";
 
 // scss-docs-start import-stack
 // Configuration
@@ -39,3 +34,9 @@
 // Utilities
 @import "../bootstrap-scss/utilities/api";
 // scss-docs-end import-stack
+
+@import "partials/base";
+@import "partials/typography";
+@import "partials/nav";
+@import "partials/circles";
+@import "partials/footer";

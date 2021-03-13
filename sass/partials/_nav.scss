@@ -1,5 +1,5 @@
 nav {
-	background: $navbar-light-colorte;
+	background: $navbar-light-color;
 
 	.container {
 		@extend .container-flex;
@@ -8,27 +8,35 @@ nav {
 	}
 
 	.logo {
-		font-size: 1.1em;
+		font-size: 39px;
 		text-transform: uppercase;
-		font-weight: bold;
-	}
-
-	ul {
-		list-style: none;
-		display: flex;
-	}
-
-	li {
-		margin-left: 1.5em;
+		color: $header-font-color;
 	}
 
 	a {
+		text-decoration: none;
+	}
+}
+
+.navbar {
+	list-style: none;
+	display: flex;
+
+	&__item {
+		margin-left: 1.5em;
+	}
+
+	&__link {
 		color: $lighter-header-color;
 		text-decoration: none;
 	}
 
-	a.active {
+	&__link--active {
 		color: $nav-tabs-link-active-color;
 		padding: 0.4em 0.4em 0.1em;
 	}
+}
+
+.navbar-collapse {
+    z-index: 1;
 }

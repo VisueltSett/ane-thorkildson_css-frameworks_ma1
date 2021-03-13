@@ -5,8 +5,12 @@ $nav-tabs-link-active-color: #c32c72;
 $navbar-light-color: #f4f3ee;
 $primary-background-color: #e5e5e5;
 $primary-fill-color: $navbar-light-color;
-$secondary-fill-color: $white;
+$secondary-fill-color: #ffffff;
 $secondary-fill-border-color: $nav-tabs-link-active-color;
 $dark-fill-color: $nav-tabs-link-active-color;
-$dark-fill-color-border-color: $white;
+$dark-fill-border-color: $secondary-fill-color;
 $box-shadow: $lighter-header-color;
+
+$font-primary: "Open Sans", sans-serif;
+
+$tablet-width: 480px;

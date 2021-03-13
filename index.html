@@ -16,13 +16,33 @@
 	</head>
 	<body>
 		<div class="main-content-wrap">
-			<nav>
+			<nav class="nav-block">
 				<div class="container">
-					<a href="/" class="logo">MA 1</a>
-					<ul>
-						<li><a href="/" class="active">Home</a></li>
-						<li><a href="/">About</a></li>
-					</ul>
+					<a href="/" class="logo">MA1</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar ml-auto">
+							<li class="navbar__item">
+								<a href="/" aria-current="page" class="navbar__link--active"
+									>Home</a
+								>
+							</li>
+							<li class="navbar__item">
+								<a href="/" class="navbar__link">About</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 
@@ -82,8 +102,7 @@
 		</div>
 		<footer>
 			<div class="footer__item">
-				<a href="mailto:hello@email.com" class="contact-email"
-					>hello@email.com</a
+				<a href="mailto:hello@email.com" class="footer__item__link">hello@email.com</a
 				>
 			</div>
 			<div class="footer__item">
