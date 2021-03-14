@@ -1,5 +1,6 @@
 footer {
 	@extend .container-fluid;
+	flex-shrink: 0;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 2rem;

@@ -13,7 +13,7 @@ nav.navbar {
 .navbar-collapse {
     z-index: 1;
 }
-@media (min-width: 680px) {
+@media (min-width: $tablet-width-larger) {
 	nav.navbar{
 		padding: 0 2rem;
 		text-align: center;
