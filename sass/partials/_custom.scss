@@ -1,15 +1,20 @@
 $body-bg: #e5e5e5;
 $body-color: #8d8d8d;
+$bg-light: #F4F3EE;
 $link-color: #8d8d8d;
 $link-decoration: none;
-$nav-link-color: #8d8d8d;
-$nav-light-active-color: #c32c72;
+$navbar-light-link-color: #8d8d8d;
+$navbar-light-active-color: #c32c72;
+$navbar-light-hover-color:#c32c72;
 $navbar-light-brand-color: #262626;
 $navbar-light-color: #262626;
 $navbar-light-toggler-border-color: transparent;
+$box-shadow: 0 .5rem 1rem rgba($black, 7%);
 
 
 
 $font-family-sans-serif: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $tablet-width: 480px;
+$tablet-width-larger: 768px;
+$desktop-width:1000px;

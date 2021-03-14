@@ -1,23 +1,29 @@
 footer {
-	@extend .container-column;
+	@extend .container-fluid;
 	align-items: center;
-	background-color: $primary-background-color;
+	justify-content: space-between;
 	margin-top: 2rem;
 	font-size: 0.8em;
-	color: $lighter-header-color;
 	padding: 0.5em;
+	background: $bg-light;
 
-	&__item {
-		color: $lighter-header-color;
-	}
+	.footer__item{
+		width: 100%;
+		padding: 1rem 2rem;
 
-	&__item--link:hover {
-		color: $nav-tabs-link-active-color;
+	 &__link:hover{
+		 cursor: pointer;
+		 color: $navbar-light-hover-color;
+	 }
 	}
 
 	@media (min-width: $tablet-width) {
-		padding: 1rem;
-		flex-direction: row;
+		padding: 1rem 2rem;
 		justify-content: space-between;
+
+		.footer__item{
+			width: 45%;
+			padding: 0 1rem;
+		}
 	}
 }
