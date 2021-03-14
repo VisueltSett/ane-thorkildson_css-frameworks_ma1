@@ -16,30 +16,32 @@
 	</head>
 	<body>
 		<div class="main-content-wrap">
-			<nav class="nav-block">
-				<div class="container">
-					<a href="/" class="logo">MA1</a>
+			<nav class="navbar navbar-expand-sm navbar-light" role="navigation">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">MA1</a>
 					<button
 						class="navbar-toggler"
 						type="button"
-						data-toggle="collapse"
-						data-target="#navbarSupportedContent"
-						aria-controls="navbarSupportedContent"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarToggler"
+						aria-controls="navbarToggler"
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
 						<span class="navbar-toggler-icon"></span>
 					</button>
-
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar ml-auto">
-							<li class="navbar__item">
-								<a href="/" aria-current="page" class="navbar__link--active"
+					<div class="collapse navbar-collapse" id="navbarToggler">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item navbar-nav__item">
+								<a
+									class="nav-link active navbar-nav__link--active"
+									aria-current="page"
+									href="#"
 									>Home</a
 								>
 							</li>
-							<li class="navbar__item">
-								<a href="/" class="navbar__link">About</a>
+							<li class="nav-item navbar-nav__item">
+								<a class="nav-link navbar-nav__link" href="#">About</a>
 							</li>
 						</ul>
 					</div>
@@ -102,7 +104,8 @@
 		</div>
 		<footer>
 			<div class="footer__item">
-				<a href="mailto:hello@email.com" class="footer__item__link">hello@email.com</a
+				<a href="mailto:hello@email.com" class="footer__item__link"
+					>hello@email.com</a
 				>
 			</div>
 			<div class="footer__item">

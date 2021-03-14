@@ -1,42 +1,30 @@
-nav {
-	background: $navbar-light-color;
-
-	.container {
-		@extend .container-flex;
-		justify-content: start;
-		align-items: center;
+nav.navbar {
+	.container-fluid{
+		align-items:flex-end;
 	}
 
-	.logo {
+	.navbar-brand {
 		font-size: 39px;
 		text-transform: uppercase;
-		color: $header-font-color;
 	}
 
-	a {
-		text-decoration: none;
+	.navbar-toggler{
+		font-size: 2rem;
 	}
 }
 
-.navbar {
-	list-style: none;
-	display: flex;
 
-	&__item {
-		margin-left: 1.5em;
-	}
 
-	&__link {
-		color: $lighter-header-color;
+.navbar-nav {
+	background-color: red;
+
+	.navbar-nav__link{
+		color: orange;
 		text-decoration: none;
 	}
 
-	&__link--active {
+	.navbar__link--active {
 		color: $nav-tabs-link-active-color;
-		padding: 0.4em 0.4em 0.1em;
 	}
 }
 
-.navbar-collapse {
-    z-index: 1;
-}

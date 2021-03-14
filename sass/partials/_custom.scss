@@ -1,16 +1,15 @@
-$header-font-color: #262626;
-$primary-font-color: $header-font-color;
-$lighter-header-color: #8d8d8d;
-$nav-tabs-link-active-color: #c32c72;
-$navbar-light-color: #f4f3ee;
-$primary-background-color: #e5e5e5;
-$primary-fill-color: $navbar-light-color;
-$secondary-fill-color: #ffffff;
-$secondary-fill-border-color: $nav-tabs-link-active-color;
-$dark-fill-color: $nav-tabs-link-active-color;
-$dark-fill-border-color: $secondary-fill-color;
-$box-shadow: $lighter-header-color;
+$body-bg: #e5e5e5;
+$body-color: #8d8d8d;
+$link-color: #8d8d8d;
+$link-decoration: none;
+$nav-link-color: #8d8d8d;
+$nav-link-active-color: #c32c72;
+$navbar-light-color: #262626;
+$navbar-light-toggler-icon-bg: $navbar-light-color;
+$navbar-light-toggler-border-color: none;
 
-$font-primary: "Open Sans", sans-serif;
+
+
+$font-family-sans-serif:     "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
 $tablet-width: 480px;
