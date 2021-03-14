@@ -3,13 +3,13 @@ $body-color: #8d8d8d;
 $link-color: #8d8d8d;
 $link-decoration: none;
 $nav-link-color: #8d8d8d;
-$nav-link-active-color: #c32c72;
+$nav-light-active-color: #c32c72;
+$navbar-light-brand-color: #262626;
 $navbar-light-color: #262626;
-$navbar-light-toggler-icon-bg: $navbar-light-color;
-$navbar-light-toggler-border-color: none;
+$navbar-light-toggler-border-color: transparent;
 
 
 
-$font-family-sans-serif:     "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $tablet-width: 480px;
